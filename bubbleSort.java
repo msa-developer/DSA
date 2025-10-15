@@ -1,5 +1,5 @@
 // Adjacent swapping takes place in bubbleSort algorithm
-// example :- 13 24 46 20 9 52
+// example :- 13, 24, 46, 20, 9, 52
 // output should be :
 // 9 13 20 24 46 52
 // Time Complexity is around O(n^2)
@@ -29,7 +29,6 @@ public class bubbleSort {
       if (arrayIsSorted) {
         break;
       }
-      System.out.println("Iam running !");
     }
 
     for (int n : arr) {
@@ -37,6 +36,6 @@ public class bubbleSort {
     }
   }
   public static void main(String[] args) {
-    bubble(new int[] {1, 2, 3, 4, 5, 6});
+    bubble(new int[] {13, 24, 46, 20, 9, 52});
   }
 }
