@@ -2,8 +2,8 @@
 /**
  * TwoSum
  */
-public class TwoSum {
 
+public class TwoSum {
   public static int[] pointerAppTwo(int[] arr, int target) {
     int i = 0;
     int j = arr.length - 1;
