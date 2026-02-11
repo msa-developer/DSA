@@ -3,12 +3,6 @@
  */
 public class segregate {
 
-  public static void swap(int arr[], int a, int b) {
-    int temp = arr[a];
-    arr[a] = arr[b];
-    arr[b] = temp;
-  }
-
   public static void answer(int arr[]) {
     int i = 0;
     int j = 1;
@@ -22,10 +16,11 @@ public class segregate {
       } else if (arr[i] == 1 && arr[j] == 1) {
         j++;
       } else if (arr[j] == 0 && arr[i] == 1) {
-        swap(arr, i, j);
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
       }
     }
-
     // printing resultant array
     for (int j2 = 0; j2 < arr.length; j2++) {
       System.out.println(arr[j2]);
