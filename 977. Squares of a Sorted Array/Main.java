@@ -20,3 +20,15 @@ public class Main {
     }
   }
 }
+
+/*
+ * Squaring each element: O(n) — one pass through the array
+ * Arrays.sort(): O(n log n) — sorting dominates
+ * Total: O(n log n)
+ * 
+ * Space Complexity: O(1) auxiliary
+ * 
+ * Modifies array in-place — no extra array created
+ * Sorting uses O(log n) stack space (negligible)
+ * Total extra space: O(1)
+ */
