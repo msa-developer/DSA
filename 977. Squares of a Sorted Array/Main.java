@@ -3,8 +3,8 @@ import java.util.Arrays;
 /**
  * Main
  */
-public class Main {
 
+public class Main {
   public static int[] solution(int[] nums) {
     for (int i = 0; i < nums.length; i++) {
       nums[i] = (int) Math.pow(nums[i], 2);
