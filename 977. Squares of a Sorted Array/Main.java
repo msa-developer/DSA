@@ -7,9 +7,14 @@ import java.util.Arrays;
 public class Main {
   public static int[] solution(int[] nums) {
     for (int i = 0; i < nums.length; i++) {
+
       nums[i] = (int) Math.pow(nums[i], 2);
     }
     Arrays.sort(nums);
+    return nums;
+  }
+
+  public static int[] twoPointer(int[] nums) {
     return nums;
   }
 
